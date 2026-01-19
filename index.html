@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0%;
+            background-image: url(https://i.pinimg.com/originals/14/fc/03/14fc030a45875ea3021063e18d433ea5.png);
+            min-height:100vh;
+            background-size:700px;
+        }
+        .parent-container{
+            margin: auto;
+            width: 35%;
+            border: 1px solid white;
+            margin-top: 5%;
+            padding: 20px;
+        }
+        .parent-container h2{
+            font-size: 2rem;
+            text-align: center;
+            color: black;
+            font-family: sans-serif;
+        }
+        .form-field{
+            margin-bottom: 20px;
+        }
+        .form-field input{
+            padding: 5px;
+            width: 90%;
+            font-size: 1.3rem;
+        }
+        .form-dropdown select{
+            padding: 5px;
+            width: 92.5%;
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+        }
+        .parent-container button{
+            background-color: green;
+            padding: 5px;
+            color:#ffffff;
+            width: 25%;
+            font-size: 1.5rem;
+            border: 0px;
+            border-radius: 10px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <form class="parent-container"  action="https://www.google.com">
+        <h2>Register</h2>
+    <div class="form-field">
+        <input type="text" placeholder="Enter name" name="first name">
+    </div>
+    
+    <div class="form-field">
+        <input type="email" placeholder="enter email" name="mail">
+    </div>
+    
+    <div class="form-field">
+        <input type="password" placeholder="enter password" name="password">
+    </div>
+    <div class="form-dropdown">
+    <select name="city">
+        <option value="">select your city</option>
+        <option value="vijayawada">vijayawada</option>
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="vizag">vizag</option>
+        <option value="guntur">guntur</option>
+    </select>
+    <button>Submit</button>
+    </div>
+    <marquee>
+    <p> shinchan ostadu notlo pedathadu thamudu</p>
+    </marquee>
+    </form>
+</body>
+</html>
